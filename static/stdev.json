@@ -1,0 +1,62 @@
+[
+ {
+   "type": "Male life expectancy, 1985 (years)",
+   "stdev": "1.94536229165871",
+   "avg": 70.8
+ },
+ {
+   "type": "Female life expectancy, 1985 (years)",
+   "stdev": "1.39725359155679",
+   "avg": 77.8
+ },
+ {
+   "type": "Male life expectancy, 1990 (years)",
+   "stdev": "2.17425371511619",
+   "avg": 71.5
+ },
+ {
+   "type": "Female life expectancy, 1990 (years)",
+   "stdev": "1.41921920438407",
+   "avg": 78.3
+ },
+ {
+   "type": "Male life expectancy, 1995 (years)",
+   "stdev": "2.33369827377475",
+   "avg": 72.5
+ },
+ {
+   "type": "Female life expectancy, 1995 (years)",
+   "stdev": "1.58026676324383",
+   "avg": 78.8
+ },
+ {
+   "type": "Male life expectancy, 2000 (years)",
+   "stdev": "2.29109971778285",
+   "avg": 74.1
+ },
+ {
+   "type": "Female life expectancy, 2000 (years)",
+   "stdev": "1.62971244749132",
+   "avg": 79.2
+ },
+ {
+   "type": "Male life expectancy, 2005 (years)",
+   "stdev": "2.39662874783324",
+   "avg": 74.9
+ },
+ {
+   "type": "Female life expectancy, 2005 (years)",
+   "stdev": "1.82410287804353",
+   "avg": 79.9
+ },
+ {
+   "type": "Male life expectancy, 2010 (years)",
+   "stdev": "2.48646241663112",
+   "avg": 76.1
+ },
+ {
+   "type": "Female life expectancy, 2010 (years)",
+   "stdev": "1.91713090384649",
+   "avg": 80.8
+ }
+]

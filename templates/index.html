@@ -4,14 +4,28 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
+    <link href={{ url_for('static', filename='style.css')}} rel="stylesheet">
     <script>
       const data = {{data | safe}}
+      const stdev = {{stdev | safe}}
     </script>
   </head>
   <body>
-    <object id="map" data={{ url_for('static', filename='map.svg')}} type="image/svg+xml" width="100%" height="100%"></object>
+    <div class="map" >
+      <object class="svg-map" id="map" data={{ url_for('static', filename='map.svg')}} type="image/svg+xml"></object>
+    </div>
       <script src={{ url_for('static', filename='color.js')}}>
       </script>
+    <div class="info-bar" id="info-bar">
+      
+    </div>
+    <div class="tray">
+      <a class="tray-button" id="tray-button">1985</a>
+      <a class="tray-button" id="tray-button">1990</a>
+      <a class="tray-button" id="tray-button">1995</a>
+      <a class="tray-button" id="tray-button">2000</a>
+      <a class="tray-button" id="tray-button">2005</a>
+      <a class="tray-button" id="tray-button">2010</a>
+    </div>
   </body>
 </html>
