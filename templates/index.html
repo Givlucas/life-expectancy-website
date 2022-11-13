@@ -13,19 +13,21 @@
   <body>
     <div class="map" >
       <object class="svg-map" id="map" data={{ url_for('static', filename='map.svg')}} type="image/svg+xml"></object>
-    </div>
-      <script src={{ url_for('static', filename='color.js')}}>
-      </script>
+    </div> 
     <div class="info-bar" id="info-bar">
-      
+      <h2 id="info"></h2>
     </div>
     <div class="tray">
-      <a class="tray-button" id="tray-button">1985</a>
-      <a class="tray-button" id="tray-button">1990</a>
-      <a class="tray-button" id="tray-button">1995</a>
-      <a class="tray-button" id="tray-button">2000</a>
-      <a class="tray-button" id="tray-button">2005</a>
-      <a class="tray-button" id="tray-button">2010</a>
+      <a class="tray-button" id="mf">Male</a>
+      <a class="tray-button" id="tray-1985">1985</a>
+      <a class="tray-button" id="tray-1990">1990</a>
+      <a class="tray-button" id="tray-1995">1995</a>
+      <a class="tray-button" id="tray-2000">2000</a>
+      <a class="tray-button" id="tray-2005">2005</a>
+      <a class="tray-button" id="tray-2010">2010</a>
     </div>
+
+    <script src={{ url_for('static', filename='color.js')}}>
+      </script>
   </body>
 </html>

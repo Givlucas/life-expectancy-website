@@ -15,8 +15,12 @@ html, body{
 }
 
 .info-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 10%;
+  color: white;
 }
 
 .tray {
